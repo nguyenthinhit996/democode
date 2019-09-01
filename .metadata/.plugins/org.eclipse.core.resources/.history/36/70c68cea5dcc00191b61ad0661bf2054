@@ -1,0 +1,7 @@
+package home;
+
+public class structstream {
+	public static void main(String [] args) {
+		
+	}
+}

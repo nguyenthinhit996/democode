@@ -1,0 +1,10 @@
+package home;
+
+import org.apache.spark.sql.SparkSession;
+
+public class structstream {
+	public static void main(String [] args) {
+		String path="person.json";
+		SparkSession spark= SparkSession.builder().appName("20190109").getOrCreate();
+	}
+}

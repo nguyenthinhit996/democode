@@ -1,0 +1,9 @@
+package home;
+
+import org.apache.spark.sql.SparkSession;
+
+public class structstream {
+	public static void main(String [] args) {
+		SparkSession spark= SparkSession.builder().appName("20190109").getOrCreate();
+	}
+}
